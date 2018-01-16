@@ -1,0 +1,11 @@
+-Animal           Puede        moverse         n      Raíz
+Animal            Tiene        Vida            n      -Animal
+-Ave              Vuela        bien            n      Animal
+Ave               Tiene        plumas          n      -Ave
+Albatros          Vuela        Muy_bien        s      Ave
+Avestruz          Vuela        No_puede        s      Ave
+Aguila_Pescadora  Vuela        Muy_bien        s      Ave
+-Felinos          Corre        Bien            n      Animal
+Felinos           Caza         Si              s      -Felinos
+Leon              Caza         Si              n      Felinos
+Gato              Caza         No              s      Felinos

@@ -1,0 +1,44 @@
+Animales        pueden               moverse                n        Raiz
+Animales        tienen               vida                   n        Raiz
+Animales        viven en             todo el mundo          n        Raiz
+Animales        pueden               sentir                 n        Raiz
+Aves            vuelan               bien                   n        Animales
+Aves            tienen tegumento     plumifero              n        Animales
+Aves            pian                 bien                   n        Animales
+Aves            comen                bichos y semillas      s        Animales
+Aves            son                  bipedos                n        Animales
+Aves            producen             huevos                 s        Animales
+Aves            tienen               pico                   n        Animales
+Peces           viven en             el agua                s        Animales
+Peces           tienen tegumento     escamoso               n        Animales
+Peces           pueden               nadar                  n        Animales
+Peces           producen             huevos                 s        Animales
+Mamiferos       producen             leche                  n        Animales
+Mamiferos       tienen tegumento     peludo                 n        Animales
+Mamiferos       son                  tetrapodos             n        Animales
+Felinos         pueden               brincar alto           n        Mamiferos
+Felinos         comen                carne                  s        Mamiferos
+Tigres          tienen               rayas                  n        Felinos
+Tigres          comen                jabalies               n        Felinos
+Tigres          pueden               rugir                  n        Felinos
+Tigres          viven en             la selva               s        Felinos
+Gatos           tienen               9 vidas                s        Felinos
+Gatos           comen                croquetas              n        Felinos
+Gatos           pueden               maullar                n        Felinos
+Avestruces      vuelan               no                     s        Aves
+Avestruces      pian                 feo                    s        Aves
+Avestruces      pueden               enterrar su cabeza     n        Aves
+Avestruces      viven en             la Sabana              s        Aves
+Halcones        vuelan               muy alto               n        Aves
+Halcones        pian                 fuerte                 n        Aves
+Halcones        comen                carne                  s        Aves
+Halcones         viven en             la montaña             s        Aves
+Pirañas         comen                carne                  s        Peces
+Pirañas         viven en             los rios               s        Peces
+Pez Payaso      viven en             el mar                 s        Peces
+Pez Payaso      comen                alguitas               s        Peces
+Artropodos      tienen tegumento     exoesqueletoso         n        Animales
+Artropodos      producen             huevos                 n        Animales
+Arañas          son                  aracnidos              n       Artropodos
+Arañas          producen             tela araña             n       Artropodos
+Insectos        son                  hexapodos              n       Artropodos

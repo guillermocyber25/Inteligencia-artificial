@@ -1,0 +1,39 @@
+Animal,Puede,moverse,n,raiz
+Animal,Tiene,vida,n,raiz
+
+Mamífero,Da,leche,n,Animal
+Mamífero,Cubierto,de pelo,n,Animal
+Mamífero,Muerde,con los colmillos,n,Animal
+
+Perro,Puede,ladrar,n,Mamífero
+Lassie,Puede,actuar,n,Perro
+
+Gato,Tiene,bigotes,n,Mamífero
+Miau,Dice,miau,n,Gato
+
+Manatí,Cubierto,de piel,s,Mamífero
+Mani,Es,artista,n,Manatí
+
+Elefante,Cubierto,de piel,s,Mamífero
+Elefante,Tiene,orejas grandes,n,Mamífero
+Dumbo,Es,actor,n,Elefante
+
+Bebé,Muerde,con las encías,s,Mamífero
+Bebé,Da,pataditas,s,Mamífero
+José,Edad,dos años,n,Bebé
+
+Ave,Vuela,bien,n,Animal
+Ave,Cubierto,plumas,n,Animal
+Ave,tiene,pico,n,Animal
+
+Albatros,Vuela,muy bien,s,Ave
+Avestruz,Vuela,no puede,s,Ave
+Pinguino,Vuela,no puede,s,Ave
+Águila,Vuela,perfectamente,s,Ave
+
+Doki,Da,mordidas,s,Perro
+Doki,Es,feliz,n,Perro
+
+Fulanita,Trabaja, en Londres, n, Mamífero
+
+

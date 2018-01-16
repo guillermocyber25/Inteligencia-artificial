@@ -1,0 +1,1041 @@
+Inicio = 2015-12-10 08:43:59
+Se inicia pregunta de tipo 2
+Se incia la bandera ya que por aleatoriedad puede que no se genere la pregunta
+Se obtiene un concepto de forma aleatoria
+Concepto = Cucharas
+Se busca el nodo actual de forma recursiva
+Se buscan sus ancestros
+Ancestros =[Columna{concepto=Cucharas, atributo=Sirve_para, valorAtributo=Comer_líquidos, sobreEscribir=s, padre=Cubiertos}, Columna{concepto=Cubiertos, atributo=Hecho_de, valorAtributo=Aluminio, sobreEscribir=s, padre=-Cubiertos}, Columna{concepto=-Cubiertos, atributo=Característica, valorAtributo=No_se_rompe, sobreEscribir=s, padre=Vajilla}, Columna{concepto=Vajilla, atributo=Característica, valorAtributo=Se_rompe, sobreEscribir=n, padre=-Vajilla}, Columna{concepto=-Vajilla, atributo=Sirve_para, valorAtributo=Comer, sobreEscribir=n, padre=Raíz}]
+Se crea una lista para guardar las respuestas falsas
+Se verifica si el concepto sobreescribe y se guardan los valores omitiendo la sobreescritura en la lista de respuestas Falsas
+Se buscan Valores de Atributos en otras ramas para agregar a las respuestas falsas
+Se crea otra lista para ingresas las respuestas finales
+Se vrifica que la lista de respuestas falsas temga al menos 2 elementos
+Respuestas Falsas =[Sirve_para Comer, Sirve_para Comer_sólidos, Sirve_para Cortar]
+De estas se sellecionan 2
+Se genera inserta a la lsita de respuestas finales
+Respuestas Finales = [Sirve_para Comer, Sirve_para Comer_sólidos, Sirve_para Comer_líquidos]
+Se genera la pregunta con las respuestas en orden aleatorio
+Cucharas
+I)Sirve_para Comer
+II)Sirve_para Comer_líquidos
+III)Sirve_para Comer_sólidos
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Vasijas
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Vasijas, atributo=Hecho_de, valorAtributo=Vidrio, sobreEscribir=s, padre=Vajilla}, Columna{concepto=Vajilla, atributo=Característica, valorAtributo=Se_rompe, sobreEscribir=n, padre=-Vajilla}, Columna{concepto=-Vajilla, atributo=Sirve_para, valorAtributo=Comer, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 3
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Cucharas
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Cucharas, atributo=Sirve_para, valorAtributo=Comer_líquidos, sobreEscribir=s, padre=Cubiertos}, Columna{concepto=Cubiertos, atributo=Hecho_de, valorAtributo=Aluminio, sobreEscribir=s, padre=-Cubiertos}, Columna{concepto=-Cubiertos, atributo=Característica, valorAtributo=No_se_rompe, sobreEscribir=s, padre=Vajilla}, Columna{concepto=Vajilla, atributo=Característica, valorAtributo=Se_rompe, sobreEscribir=n, padre=-Vajilla}, Columna{concepto=-Vajilla, atributo=Sirve_para, valorAtributo=Comer, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Vasijas
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Vasijas, atributo=Hecho_de, valorAtributo=Vidrio, sobreEscribir=s, padre=Vajilla}, Columna{concepto=Vajilla, atributo=Característica, valorAtributo=Se_rompe, sobreEscribir=n, padre=-Vajilla}, Columna{concepto=-Vajilla, atributo=Sirve_para, valorAtributo=Comer, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 3
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Platos
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Platos, atributo=Hecho_de, valorAtributo=Ceramica, sobreEscribir=s, padre=Vajilla}, Columna{concepto=Vajilla, atributo=Característica, valorAtributo=Se_rompe, sobreEscribir=n, padre=-Vajilla}, Columna{concepto=-Vajilla, atributo=Sirve_para, valorAtributo=Comer, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 3
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Plato_Desechable
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Plato_Desechable, atributo=Hecho_de, valorAtributo=Plastico, sobreEscribir=s, padre=Platos}, Columna{concepto=Platos, atributo=Hecho_de, valorAtributo=Ceramica, sobreEscribir=s, padre=Vajilla}, Columna{concepto=Vajilla, atributo=Característica, valorAtributo=Se_rompe, sobreEscribir=n, padre=-Vajilla}, Columna{concepto=-Vajilla, atributo=Sirve_para, valorAtributo=Comer, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 4
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+¿Plato_Desechable Sirve_para Contener_líquidos?
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Tenedor_Pescado
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Tenedor_Pescado, atributo=Sirve_para, valorAtributo=Comer_Pescado, sobreEscribir=s, padre=Tenedores}, Columna{concepto=Tenedores, atributo=Sirve_para, valorAtributo=Comer_sólidos, sobreEscribir=s, padre=Cubiertos}, Columna{concepto=Cubiertos, atributo=Hecho_de, valorAtributo=Aluminio, sobreEscribir=s, padre=-Cubiertos}, Columna{concepto=-Cubiertos, atributo=Característica, valorAtributo=No_se_rompe, sobreEscribir=s, padre=Vajilla}, Columna{concepto=Vajilla, atributo=Característica, valorAtributo=Se_rompe, sobreEscribir=n, padre=-Vajilla}, Columna{concepto=-Vajilla, atributo=Sirve_para, valorAtributo=Comer, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 6
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+¿Tenedor_Pescado Sirve_para Comer_Ensalada?
+Pregunta Terminada
+
+Inicio = 2015-12-10 08:51:07
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Albatros
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Albatros, atributo=Vuela, valorAtributo=Muy_bien, sobreEscribir=s, padre=Ave}, Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Ave
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 4
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Leon
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Leon, atributo=Caza, valorAtributo=Si, sobreEscribir=n, padre=Felinos}, Columna{concepto=Felinos, atributo=Caza, valorAtributo=Si, sobreEscribir=s, padre=-Felinos}, Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Gato
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Gato, atributo=Caza, valorAtributo=No, sobreEscribir=s, padre=Felinos}, Columna{concepto=Felinos, atributo=Caza, valorAtributo=Si, sobreEscribir=s, padre=-Felinos}, Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Albatros
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Albatros, atributo=Vuela, valorAtributo=Muy_bien, sobreEscribir=s, padre=Ave}, Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Avestruz
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Avestruz, atributo=Vuela, valorAtributo=No_puede, sobreEscribir=s, padre=Ave}, Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Ave
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 4
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = -Felinos
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 3
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Leon
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Leon, atributo=Caza, valorAtributo=Si, sobreEscribir=n, padre=Felinos}, Columna{concepto=Felinos, atributo=Caza, valorAtributo=Si, sobreEscribir=s, padre=-Felinos}, Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Animal
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 2
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Animal
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 2
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Felinos
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Felinos, atributo=Caza, valorAtributo=Si, sobreEscribir=s, padre=-Felinos}, Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 4
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Felinos
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Felinos, atributo=Caza, valorAtributo=Si, sobreEscribir=s, padre=-Felinos}, Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 4
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Avestruz
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Avestruz, atributo=Vuela, valorAtributo=No_puede, sobreEscribir=s, padre=Ave}, Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Felinos
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Felinos, atributo=Caza, valorAtributo=Si, sobreEscribir=s, padre=-Felinos}, Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 4
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Albatros
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Albatros, atributo=Vuela, valorAtributo=Muy_bien, sobreEscribir=s, padre=Ave}, Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Felinos
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Felinos, atributo=Caza, valorAtributo=Si, sobreEscribir=s, padre=-Felinos}, Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 4
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Aguila_Pescadora
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Aguila_Pescadora, atributo=Vuela, valorAtributo=Muy_bien, sobreEscribir=s, padre=Ave}, Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = -Animal
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 1
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+¿-Animal Puede moverse?
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Seleccionando un concepto de forma aletoria
+Concepto =Gato
+Se hace una busqueda de los ancentros y se ingresa en una lista
+Lista creada = [Columna{concepto=Gato, atributo=Caza, valorAtributo=No, sobreEscribir=s, padre=Felinos}, Columna{concepto=Felinos, atributo=Caza, valorAtributo=Si, sobreEscribir=s, padre=-Felinos}, Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se verifica que el atributo se sobreescriba respecto a la herencia
+Conceptos ActualizadosColumna{concepto=Felinos, atributo=Caza, valorAtributo=No, sobreEscribir=s, padre=-Felinos}
+Se genera la pregunta
+¿Gato Caza No?
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Felinos
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Felinos, atributo=Caza, valorAtributo=Si, sobreEscribir=s, padre=-Felinos}, Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 4
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = -Animal
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 1
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+¿-Animal Puede moverse?
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Ave
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 4
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Leon
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Leon, atributo=Caza, valorAtributo=Si, sobreEscribir=n, padre=Felinos}, Columna{concepto=Felinos, atributo=Caza, valorAtributo=Si, sobreEscribir=s, padre=-Felinos}, Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = -Ave
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 3
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Leon
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Leon, atributo=Caza, valorAtributo=Si, sobreEscribir=n, padre=Felinos}, Columna{concepto=Felinos, atributo=Caza, valorAtributo=Si, sobreEscribir=s, padre=-Felinos}, Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Albatros
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Albatros, atributo=Vuela, valorAtributo=Muy_bien, sobreEscribir=s, padre=Ave}, Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Aguila_Pescadora
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Aguila_Pescadora, atributo=Vuela, valorAtributo=Muy_bien, sobreEscribir=s, padre=Ave}, Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Albatros
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Albatros, atributo=Vuela, valorAtributo=Muy_bien, sobreEscribir=s, padre=Ave}, Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Aguila_Pescadora
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Aguila_Pescadora, atributo=Vuela, valorAtributo=Muy_bien, sobreEscribir=s, padre=Ave}, Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = -Animal
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 1
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+¿-Animal Puede moverse?
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Felinos
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Felinos, atributo=Caza, valorAtributo=Si, sobreEscribir=s, padre=-Felinos}, Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 4
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Leon
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Leon, atributo=Caza, valorAtributo=Si, sobreEscribir=n, padre=Felinos}, Columna{concepto=Felinos, atributo=Caza, valorAtributo=Si, sobreEscribir=s, padre=-Felinos}, Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Leon
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Leon, atributo=Caza, valorAtributo=Si, sobreEscribir=n, padre=Felinos}, Columna{concepto=Felinos, atributo=Caza, valorAtributo=Si, sobreEscribir=s, padre=-Felinos}, Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Ave
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 4
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Leon
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Leon, atributo=Caza, valorAtributo=Si, sobreEscribir=n, padre=Felinos}, Columna{concepto=Felinos, atributo=Caza, valorAtributo=Si, sobreEscribir=s, padre=-Felinos}, Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Aguila_Pescadora
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Aguila_Pescadora, atributo=Vuela, valorAtributo=Muy_bien, sobreEscribir=s, padre=Ave}, Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Avestruz
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Avestruz, atributo=Vuela, valorAtributo=No_puede, sobreEscribir=s, padre=Ave}, Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Avestruz
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Avestruz, atributo=Vuela, valorAtributo=No_puede, sobreEscribir=s, padre=Ave}, Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Animal
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 2
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Animal
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 2
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Albatros
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Albatros, atributo=Vuela, valorAtributo=Muy_bien, sobreEscribir=s, padre=Ave}, Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = -Ave
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 3
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = -Ave
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 3
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Aguila_Pescadora
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Aguila_Pescadora, atributo=Vuela, valorAtributo=Muy_bien, sobreEscribir=s, padre=Ave}, Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Felinos
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Felinos, atributo=Caza, valorAtributo=Si, sobreEscribir=s, padre=-Felinos}, Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 4
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Felinos
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Felinos, atributo=Caza, valorAtributo=Si, sobreEscribir=s, padre=-Felinos}, Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 4
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = -Animal
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 1
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+¿-Animal Puede moverse?
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = -Felinos
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 3
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Avestruz
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Avestruz, atributo=Vuela, valorAtributo=No_puede, sobreEscribir=s, padre=Ave}, Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Felinos
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Felinos, atributo=Caza, valorAtributo=Si, sobreEscribir=s, padre=-Felinos}, Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 4
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Aguila_Pescadora
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Aguila_Pescadora, atributo=Vuela, valorAtributo=Muy_bien, sobreEscribir=s, padre=Ave}, Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Avestruz
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Avestruz, atributo=Vuela, valorAtributo=No_puede, sobreEscribir=s, padre=Ave}, Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = -Ave
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 3
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = -Ave
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 3
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Avestruz
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Avestruz, atributo=Vuela, valorAtributo=No_puede, sobreEscribir=s, padre=Ave}, Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Avestruz
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Avestruz, atributo=Vuela, valorAtributo=No_puede, sobreEscribir=s, padre=Ave}, Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Gato
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Gato, atributo=Caza, valorAtributo=No, sobreEscribir=s, padre=Felinos}, Columna{concepto=Felinos, atributo=Caza, valorAtributo=Si, sobreEscribir=s, padre=-Felinos}, Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Avestruz
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Avestruz, atributo=Vuela, valorAtributo=No_puede, sobreEscribir=s, padre=Ave}, Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = -Felinos
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 3
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = -Ave
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 3
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Felinos
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Felinos, atributo=Caza, valorAtributo=Si, sobreEscribir=s, padre=-Felinos}, Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 4
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = -Animal
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 1
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+¿-Animal Puede moverse?
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Seleccionando un concepto de forma aletoria
+Concepto =Leon
+Se hace una busqueda de los ancentros y se ingresa en una lista
+Lista creada = [Columna{concepto=Leon, atributo=Caza, valorAtributo=Si, sobreEscribir=n, padre=Felinos}, Columna{concepto=Felinos, atributo=Caza, valorAtributo=Si, sobreEscribir=s, padre=-Felinos}, Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se verifica que el atributo se sobreescriba respecto a la herencia
+Conceptos ActualizadosColumna{concepto=Felinos, atributo=Caza, valorAtributo=Si, sobreEscribir=s, padre=-Felinos}
+Se genera la pregunta
+¿Leon Caza Si?
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Avestruz
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Avestruz, atributo=Vuela, valorAtributo=No_puede, sobreEscribir=s, padre=Ave}, Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Ave
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 4
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = -Felinos
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 3
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Animal
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 2
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = Gato
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=Gato, atributo=Caza, valorAtributo=No, sobreEscribir=s, padre=Felinos}, Columna{concepto=Felinos, atributo=Caza, valorAtributo=Si, sobreEscribir=s, padre=-Felinos}, Columna{concepto=-Felinos, atributo=Corre, valorAtributo=Bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 5
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+Pregunta Terminada
+
+Creando Pregunta de Tipo 1 
+Obteniendo concepto de forma aleatoria
+Concepto = -Animal
+Se crea una bandera ya que esta pregunta puede ser tipo B o C
+y puede o no crearse por la aleatoriedad
+Se buscan los ancestros del concepto
+Ancestros = [Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se obtiene el tamño de la lista
+Tamaño lista = 1
+Se verifica si el elemento se sobreescribe
+Se genera la pregunta de forma aleatoria
+¿-Animal Puede moverse?
+Pregunta Terminada
+
+Se inicia pregunta de tipo 2
+Se incia la bandera ya que por aleatoriedad puede que no se genere la pregunta
+Se obtiene un concepto de forma aleatoria
+Concepto = Albatros
+Se busca el nodo actual de forma recursiva
+Se buscan sus ancestros
+Ancestros =[Columna{concepto=Albatros, atributo=Vuela, valorAtributo=Muy_bien, sobreEscribir=s, padre=Ave}, Columna{concepto=Ave, atributo=Tiene, valorAtributo=plumas, sobreEscribir=n, padre=-Ave}, Columna{concepto=-Ave, atributo=Vuela, valorAtributo=bien, sobreEscribir=n, padre=Animal}, Columna{concepto=Animal, atributo=Tiene, valorAtributo=Vida, sobreEscribir=n, padre=-Animal}, Columna{concepto=-Animal, atributo=Puede, valorAtributo=moverse, sobreEscribir=n, padre=Raíz}]
+Se crea una lista para guardar las respuestas falsas
+Se verifica si el concepto sobreescribe y se guardan los valores omitiendo la sobreescritura en la lista de respuestas Falsas
+Se buscan Valores de Atributos en otras ramas para agregar a las respuestas falsas
+Se crea otra lista para ingresas las respuestas finales
+Se vrifica que la lista de respuestas falsas temga al menos 2 elementos
+Respuestas Falsas =[Vuela bien, Vuela No_puede, Vuela Muy_bien]
+De estas se sellecionan 2
+Se genera inserta a la lsita de respuestas finales
+Respuestas Finales = [Vuela bien, Vuela No_puede, Vuela Muy_bien]
+Se genera la pregunta con las respuestas en orden aleatorio
+Albatros
+I)Vuela bien
+II)Vuela No_puede
+III)Vuela Muy_bien
+Pregunta Terminada
+
+Fin = 2015-12-10 08:52:24
